@@ -78,7 +78,7 @@ User.prototype.validate = function () {
             if (emailExists) {this.errors.push("That email is already being used.")}
           }
           //Just UGM EMAIL BROH
-          if (this.data.email.split('@').slice(1)!='ugm.ac.id') {
+          if (this.data.email.split('@').slice(1)!='mail.ugm.ac.id') {
             this.errors.push ('Just Ugm email please')
           }
           
